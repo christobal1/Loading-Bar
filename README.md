@@ -7,7 +7,7 @@ A program for loading bars in the terminal using text symbols.
 
 Usage:
 
-run(10.0, "Loading", "Finished", 1, 1, 1);
+<code style="color : green">run(10.0, "Loading", "Finished", 1, 1, 1);</code>
 
 - For a four second loading bar
 - with "Loading" as the message displayed while loading
