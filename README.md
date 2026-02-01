@@ -7,7 +7,7 @@ A program for loading bars in the terminal using text symbols.
 
 Usage:
 
-run(4.0, "Loading", "Finished", 1, 1, 1);
+run(10.0, "Loading", "Finished", 1, 1, 1);
 
 - For a four second loading bar
 - with "Loading" as the message displayed while loading
@@ -16,3 +16,9 @@ run(4.0, "Loading", "Finished", 1, 1, 1);
     - displaying the percentage
     - dispalying message 1
     - displaying message 2
+
+
+So the result would be the following:
+
+[================================================= ] (Loading) 100.0%
+Finished (in 9s)
