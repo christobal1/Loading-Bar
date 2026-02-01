@@ -14,8 +14,9 @@ extern int incr(int x);
  * togglePercentage = 1 to display the percentage while loading. 0 to not display it.
  * toggleMsg1 = 1 to display the str1 message while loading. 0 to not display it.
  * toggleMsg2 = 1 to display the str2 message when finished. 0 to not display it.
+ * toggleElapsed = 1 to display the time it took to finish. 0 to not display it.
  */
 
-extern void run(double factor, char* str1, char* str2, int togglePercentage, int toggleMsg1, int toggleMsg2);
+extern void run(double factor, char* str1, char* str2, int togglePercentage, int toggleMsg1, int toggleMsg2, int toggleElapsed);
 
 #endif

@@ -36,7 +36,7 @@ int incr(int x){
 }
 
 
-void run(double factor, char* str1, char* str2, int togglePercentage, int toggleMsg1, int toggleMsg2){
+void run(double factor, char* str1, char* str2, int togglePercentage, int toggleMsg1, int toggleMsg2, int toggleElapsed){
     srand(time(NULL));
 
     time_t begin;
@@ -73,12 +73,14 @@ void run(double factor, char* str1, char* str2, int togglePercentage, int toggle
 
     }
 
-    printf("\n%s", str2);
+    if(toggleMsg2 == 1){
+        printf("\n%s", str2);
+    } 
 
     time(&end);
     elapsed = end - begin;
 
-    if(toggleMsg2 == 1){
+    if(toggleElapsed == 1){
 
         if(elapsed == 0){
             printf(" (in < 1s)");
