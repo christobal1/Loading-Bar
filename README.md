@@ -20,5 +20,5 @@ run(10.0, "Loading", "Finished", 1, 1, 1);
 
 So the result would be the following:
 
-[================================================= ] (Loading) 100.0%
+[================================================= ] (Loading) 100.0% <br>
 Finished (in 9s)
