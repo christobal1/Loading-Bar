@@ -12,7 +12,7 @@ Usage:
 - For a ten second loading bar
 - with "Loading" as the message displayed while loading
 - And "Finished" as the message displayed when finished.
-- The 1s (or 0s) after that toggle the following in order:
+- After that, by using 1 or 0 you can toggle the following in order:
     - displaying the percentage
     - dispalying message 1
     - displaying message 2
